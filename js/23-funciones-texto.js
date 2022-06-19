@@ -35,5 +35,9 @@ var busqueda = texto1.indexOf("curso");
     busqueda = texto1.substr(14,15);
     busqueda = texto1.charAt(44);
     busqueda = texto1.startsWith("r");
-    busqueda = texto1.includes("Victor")
+    busqueda = texto1.includes("Victor");
+    busqueda = texto1.replace("JavaScript", "PHP");
+    busqueda = texto1.slice(14,22);
+    busqueda = texto1.split(" ");
+    busqueda = texto1.trim(); // quita espaciio por delante y por detrás
 console.log(busqueda);
